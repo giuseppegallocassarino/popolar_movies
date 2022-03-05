@@ -133,7 +133,7 @@ body::-webkit-scrollbar {
 }
 
 footer{
-    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgb(24, 24, 24) 99%);
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgb(52 51 51) 99%);
     padding: 100px 50px;
     width: 100%;
     text-align: center;
