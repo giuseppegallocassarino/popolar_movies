@@ -1,21 +1,26 @@
-/**
- * Project REST API endpoint
- */
- 
- const API =  "https://api.themoviedb.org/3/movie/popular?api_key=334a0834c2d0511dec35398d492d7ade&language=en-US&page=1";
-              
- const imgUrl =  "https://image.tmdb.org/t/p/w200" ;
+export { render, q, API, urlYt, movieId };
 
- const imgUrl__rated = "https://image.tmdb.org/t/p/w200" ;
+const q = (selector) => document.querySelector(selector);
 
- const TOPRATED ="https://api.themoviedb.org/3/tv/top_rated?api_key=334a0834c2d0511dec35398d492d7ade&language=en-US&page=1";
+const render = (container, content) => (container.innerHTML += content);
+
+const API = {
+    apiKey: `334a0834c2d0511dec35398d492d7ade`,
+    imgUrl: `https://image.tmdb.org/t/p/w500`,
+    genresUrl: `https://api.themoviedb.org/3/genre/movie/list?`,
+    movieUrl: `https://api.themoviedb.org/3/movie/popular?`,
+    detailUrl: `https://api.themoviedb.org/3/movie/`,
+}
+
+const urlYt = "https://www.youtube.com/embed/";
 
 
 
- /**
-  * Render some content within a container HTML tag //creo funzione per renderizzare
-  */
- const render = (container, content) => (container.innerHTML = content);
- const renderizzare = (container__top__rated, content) => (container__top__rated.innerHTML = content);
- 
- export { API, render, renderizzare, imgUrl, TOPRATED, imgUrl__rated};
+//  NAV BAR HEADER 
+window.addEventListener("scroll", () => {
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0)
+})
+
+
+const movieId = location.search.replace("?id=", "");
