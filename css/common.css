@@ -60,6 +60,7 @@ header ul {
 header ul li {
     position: relative;
     list-style: none;
+    text-align: right;
 }
 
 header ul li a {
@@ -127,6 +128,7 @@ body::-webkit-scrollbar {
   }
 
   footer{
+    position: absolute;
     padding: 50px 20px;
 }
 
