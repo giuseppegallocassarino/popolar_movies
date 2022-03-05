@@ -63,7 +63,7 @@ const makeCards = (id, data) => {
             <img src="${API.imgUrl}${item.backdrop_path}" alt="">
             <p class=stars> ★ ${item.vote_average}/10</p>
             <p class="movie-title">${item.title}</p>
-            <button class=info-btn>view</button>
+            
         </div>
         `;
 
