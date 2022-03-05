@@ -37,7 +37,7 @@ const makeMovieDeatils = (detail) => {
         detail.backdrop_path = detail.poster_path;
     }
 
-    //  Gestione dettagli film 
+    //dettagli film 
 
 
     const details =

@@ -5,7 +5,7 @@ const main = document.querySelector('main');
 fetch(`${API.genresUrl}api_key=${API.apiKey}`)
     .then(response => response.json())
     .then(data => {
-        // console.log(data)
+        
         data.genres.forEach(item => {
             getMoviesByGenres(item.id, item.name)
         })

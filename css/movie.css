@@ -106,8 +106,7 @@
 .trailer {
     display: flex;
     justify-content: center;
-    /* width: 300px;
-    min-height: 150px; */
+    
     border-radius: 50px;
 
     position: absolute;

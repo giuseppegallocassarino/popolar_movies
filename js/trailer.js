@@ -5,9 +5,9 @@ fetch(`${API.detailUrl}${movieId}/videos?api_key=${API.apiKey}&language=en-US`)
     .then((response) => response.json())
     .then((data) => {
 
-        // console.log(data)
+       
         makeTrailer(data.results);
-        // console.log(data.results)
+        
     });
 
 
