@@ -92,7 +92,7 @@ header img {
     font-size: 30px;
 }
 
-.info-btn {
+/*.info-btn {
     padding: 10px 15px;
     border-radius: 50%;
     border: none;
@@ -100,7 +100,7 @@ header img {
     background-color: rgba(255, 255, 255, 0.397);
 
    /* position: absolute; */
-    margin-top: 15px;
+   /* margin-top: 15px;
 
     right: 10%;
 
@@ -108,7 +108,7 @@ header img {
     font-weight: 500;
 
     cursor: pointer;
-}
+}*/
 
 
 
