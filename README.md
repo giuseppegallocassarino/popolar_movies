@@ -1,6 +1,6 @@
 # SUPERMOVIES
 
->SuperMovies Movies Database
+>SuperMovies Clone Movies Database
 <br>
 <ul>
 <h3> Features: </h3>
