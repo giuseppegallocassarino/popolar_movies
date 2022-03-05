@@ -29,7 +29,7 @@ const makeCategoryElement = (category, data) => {
 
     <div class="movie-list">
     
-        <h1 class="movie-category">${category} Movies</h1>
+        <h1 class="movie-category">${category}</h1>
 
         <div class="movie-container" id="${category}">
 
