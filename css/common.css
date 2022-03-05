@@ -43,7 +43,7 @@ header {
     position: absolute;
     height: 60px;
     width: 100%;
-    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgb(24, 24, 24) 99%);
+    background: linear-gradient(360deg, rgba(6 5 5 / 83%) 0%, rgb(24, 24, 24) 99%);
     z-index: -1 ;
 }
 
